@@ -8,17 +8,23 @@ module.exports = {
         {
           firstName: "John",
           lastName: "Doe",
-          email: "demo@demo.com"
+          email: "demo@demo.com",
+          createdAt: new Date(),
+          updatedAt: new Date()
         },
         {
           firstName: "Max",
           lastName: "Garcia",
-          email: "mgrozado@gmail.com"
+          email: "mgrozado@gmail.com",
+          createdAt: new Date(),
+          updatedAt: new Date()
         },
         {
           firstName: "Test",
           lastName: "Test2",
-          email: "test@gmail.com"
+          email: "testg@gmail.com",
+          createdAt: new Date(),
+          updatedAt: new Date()
         }
       ],
       {}

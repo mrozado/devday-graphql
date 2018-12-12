@@ -7,15 +7,21 @@ module.exports = {
       [
         {
           name: "Alto Bar",
-          address: "Uspallata 2101"
+          address: "Uspallata 2101",
+          createdAt: new Date(),
+          updatedAt: new Date()
         },
         {
           name: "Los Galgos",
-          address: "Corrientes 2100"
+          address: "Corrientes 2100",
+          createdAt: new Date(),
+          updatedAt: new Date()
         },
         {
           name: "416 Snack Bar",
-          address: "Carranza y Costa Rica"
+          address: "Carranza y Costa Rica",
+          createdAt: new Date(),
+          updatedAt: new Date()
         }
       ],
       {}
