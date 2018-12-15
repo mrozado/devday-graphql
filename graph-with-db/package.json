@@ -5,6 +5,7 @@
     "graphql": "^14.0.2",
     "graphql-relay": "^0.5.5",
     "graphql-sequelize": "^9.2.0",
+    "node-fetch": "^2.3.0",
     "sequelize": "^4.41.2",
     "sequelize-cli": "^5.4.0",
     "sqlite3": "^4.0.4"

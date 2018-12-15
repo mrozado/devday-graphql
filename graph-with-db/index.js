@@ -1,10 +1,11 @@
 const express = require("express");
 const graphQLHttp = require("express-graphql");
+const schema = require("./schema");
 const app = express();
 const port = 5500;
-app.get("/", (req, res) => res.send("Hello World!"));
+// app.get("/", (req, res) => res.send("Hello World!"));
 
-app.get(
+app.use(
   "/graphql",
   graphQLHttp({
     schema,
