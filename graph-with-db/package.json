@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "express-graphql": "^0.7.1",
     "graphql": "^14.0.2",
     "graphql-relay": "^0.5.5",
